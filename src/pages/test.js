@@ -15,7 +15,7 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.TopBar height="60px" />
-		<Section height="600px" padding="0 0 0 0">
+		<Section height="600px" padding="0 0 0 0" display="block" background="url(https://images.unsplash.com/photo-1575654417486-6289490869b7?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000)">
 			<Override slot="SectionContent" width="100%" border-style="none" />
 			<Box
 				width="186px"
@@ -59,13 +59,6 @@ export default (() => {
 					</Text>
 				</Box>
 			</Box>
-			<Box
-				flex="1"
-				background="url(https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0%/cover no-repeat scroll"
-				display="flex"
-				align-self="stretch"
-				width="100%"
-			/>
 		</Section>
 		<Link
 			font={"--capture"}
