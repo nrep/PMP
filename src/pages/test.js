@@ -59,7 +59,7 @@ export default (() => {
 					</Text>
 				</Box>
 			</Box>
-			<Box flex="1" background="url(https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0%/cover no-repeat fixed" />
+			<Box flex="1" background="url(https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0%/cover no-repeat scroll" />
 		</Section>
 		<Link
 			font={"--capture"}
