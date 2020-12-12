@@ -35,6 +35,7 @@ export default (() => {
 				display="flex"
 				align-items="center"
 				padding="0px 20px 0px 20px"
+				hover-box-shadow="1px 0 6px 1px rgba(0, 0, 0, 0.21)"
 			>
 				<Box display="flex" height="100%" align-items="center">
 					<Icon category="fa" icon={FaClinicMedical} color="#1a049a" />
